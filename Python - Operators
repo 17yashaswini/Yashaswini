@@ -1,0 +1,55 @@
+1) CALCULATE THE MULTIPLICATION AND SUM OF TWO NUMBERS
+               
+  num1 = 15                                                  #ENTER TWO NUMBERS
+  num2 = 10
+  multiplication = num1 * num2                               #CALCULATE MULTIPLICATION
+  addition= num1 + num2                                      #CALCULATE DIVISION
+  print("multiplication of two numbers:",multiplication)     #PRINT STATEMENTS
+  print("addition of two numbers:",addition)
+
+   OUTPUT
+
+  multiplication of two numbers: 150
+  addition of two numbers: 25
+
+----------------------------------------------------------------------------------------------
+
+2) DECLARE TWO VARIABLES AND PRINT THAT WHICH VARIABLE IS LARGEST USING TERNARY
+
+  variable1 = 10                                             #ENTER TWO VARIABLES
+  variable2 = 20
+  largest_variable = True if variable2>variable1 else False  #CALCULATION USING TERNARY OPERATOR
+  print(largest_variable)                                    #PRINT STATEMENT
+ 
+   OUTPUT
+
+  True
+
+----------------------------------------------------------------------------------------------
+
+3) PYTHON PROGARM TO CONVERT THE TEMPERATURE IN DEGREE AND CENTIGRADES TO FAHRENHEIT
+
+  centigrade = 30                                            #DEGREE CENTIGRADE
+  fahrenheit = 9/5 * centigrade + 32                         #COVERTING DEGREE TO FAHRENHEIT
+  print("fahrenheit:",fahrenheit)                            #PRINT STATEMENT
+
+   OUTPUT
+
+  fahrenheit: 86.0
+
+-----------------------------------------------------------------------------------------------
+
+4) PYTHON PROGRAM TO FIND THE AREA OF A TRIANGLE WHOSE SIDES ARE GIVEN
+ 
+  a=2                                                       #SIDE1
+  b=3                                                       #SIDE2 
+  c=4                                                       #SIDE3
+  sp=(a+b+c)/2                                              #SEMIPERIMETER
+  area=(sp*(sp-a)*(sp-b)*(sp-c))**0.5                       #AREA OF TRIANGLE
+  print(area)                                               #PRINT STATEMENT
+  
+   OUTPUT
+
+  2.9047375096555625
+ 
+------------------------------------------------------------------------------------------------
